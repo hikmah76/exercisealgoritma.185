@@ -19,8 +19,10 @@ void input_data() {
 	}
 }
 
-// Procedure display
+// Procedure Display
 void display_data() {
 	cout << "Data setelah diurutkan:" << endl;
-	for (int i )
+	for (int i = 0; i < MAX_DATA; i++) {
+		cout << data[i] << " ";
+	}
 }
