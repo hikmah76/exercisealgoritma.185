@@ -14,5 +14,7 @@ void input_data() {
 		cin >> n;
 	}
 	cout << "Masukkan " << n << " data: ";
-	cin >> n;
+	for (int i = 0; i < n; i++) {
+		cin >> n;
+	}
 }
