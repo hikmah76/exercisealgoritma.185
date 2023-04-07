@@ -15,6 +15,12 @@ void input_data() {
 	}
 	cout << "Masukkan " << n << " data: ";
 	for (int i = 0; i < n; i++) {
-		cin >> n;
+		cin >> data[i];
 	}
+}
+
+// Procedure display
+void display_data() {
+	cout << "Data setelah diurutkan:" << endl;
+	for (int i )
 }
