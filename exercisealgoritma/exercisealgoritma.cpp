@@ -8,7 +8,10 @@ int data[MAX_DATA];
 void input_data() {
 	int n;
 	cout << "Masukkan jumlah data (maksimum " << MAX_DATA << "): ";
-	cin n;
+	cin >> n;
 	while (n < 1 || n > MAX_DATA) {
-
+		cout << " Jumlah data tidak valid. Masukkan kembali: ";
+		cin >> n;
+	}
+	cout << "Masukkan " << n << " data: ";
 }
