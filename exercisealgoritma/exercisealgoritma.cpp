@@ -9,5 +9,6 @@ void input_data() {
 	int n;
 	cout << "Masukkan jumlah data (maksimum " << MAX_DATA << "): ";
 	cin n;
-	while 
+	while (n < 1 || n > MAX_DATA) {
+
 }
