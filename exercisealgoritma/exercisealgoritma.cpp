@@ -28,4 +28,15 @@ void display_data() {
 	cout << endl;
 }
 
-// 
+// Procedure Algorithm
+void selection_sort() {
+	int main_index;
+	for (int FA = 0; FA < MAX_DATA - 1; FA++) {
+		min_index = FA;
+		for (int i = FA + 1; i < MAX_DATA; i++) {
+			if (data[i] < data[min_index]) {
+				min_index = i;
+			}
+		}
+	}
+}
