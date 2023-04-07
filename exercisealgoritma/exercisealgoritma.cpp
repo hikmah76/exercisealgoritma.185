@@ -7,5 +7,7 @@ int data[MAX_DATA];
 // Procedure input 
 void input_data() {
 	int n;
-	c
+	cout << "Masukkan jumlah data (maksimum " << MAX_DATA << "): ";
+	cin n;
+	while 
 }
