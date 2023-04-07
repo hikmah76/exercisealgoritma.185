@@ -38,5 +38,6 @@ void selection_sort() {
 				min_index = i;
 			}
 		}
+		swap(data[FA], data[min_index]) {
 	}
 }
