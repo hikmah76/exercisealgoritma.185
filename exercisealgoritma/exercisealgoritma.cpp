@@ -41,3 +41,7 @@ void selection_sort() {
 		swap(data[FA], data[min_index]) {
 	}
 }
+
+// Program utama
+	int main() {
+		input_data();
