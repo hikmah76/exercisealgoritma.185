@@ -38,10 +38,15 @@ void selection_sort() {
 				min_index = i;
 			}
 		}
-		swap(data[FA], data[min_index]) {
+		swap(data[FA], data[min_index]);
 	}
 }
 
 // Program utama
 	int main() {
 		input_data();
+		selection_sort();
+		display_data();
+
+		return 0;
+	}
