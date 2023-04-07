@@ -25,4 +25,7 @@ void display_data() {
 	for (int i = 0; i < MAX_DATA; i++) {
 		cout << data[i] << " ";
 	}
+	cout << endl;
 }
+
+// 
