@@ -14,4 +14,5 @@ void input_data() {
 		cin >> n;
 	}
 	cout << "Masukkan " << n << " data: ";
+	cin >> n;
 }
